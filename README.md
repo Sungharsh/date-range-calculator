@@ -1,2 +1,8 @@
-# date-range-calculator
-React app - display date ranges
+This Application is under production.<br />
+## React Application - Date Range Picker.
+
+To test NPM install<br />
+### `npm start`
+
+
+
