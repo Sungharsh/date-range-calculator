@@ -4,18 +4,9 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
+  -moz-osx-font-smoothing: grayscale; 
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-html,
-body {
-    margin: 0 auto;
-    padding: 0px;
-    overflow-y: hidden;
-    letter-spacing:0.02857em;
-    font-weight: 600;
 }
