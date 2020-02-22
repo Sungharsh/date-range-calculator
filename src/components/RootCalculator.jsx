@@ -61,7 +61,7 @@ const RootCalculator = () => {
     return ( 
         <React.Fragment>
           <header className="appBar">React Date Range Calculator</header>
-          <main className ="mainCal">
+          <main className ="main">
                 <div className="calanderPicker">
                   <div className="calanderLabel">
                     Select Date range
@@ -86,7 +86,7 @@ const RootCalculator = () => {
             </Suspense>
           </div>
           </main>
-          <footer>footer</footer>
+          <footer>Copyright<span>&#169; </span> {new Date().toLocaleDateString()} React.JS Application</footer>
         </React.Fragment>
      );
 }

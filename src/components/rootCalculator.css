@@ -3,6 +3,7 @@ html, body {
     color: #000000de;
     letter-spacing:0.02857em;
     font-weight: 600;
+    background-color: #e6e6e6;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,8 +20,6 @@ body {
 header,
 footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 2em;
 }
 .container {
@@ -56,15 +55,16 @@ footer {
   color: #505050;
 }
 footer {
+  display:block;
   margin: 0 auto;
   background-color: #282c34;
   min-height: 2vh;
   flex-direction: column;
+  font-size: calc(1px + 2vmin);
+  letter-spacing: 0.05857em;
+  color: #61dafb;
   align-items: center;
   justify-content: center;
-  color: #61dafb;
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
 }
 
 main {
@@ -102,6 +102,7 @@ table {
   justify-content: center;
   border-collapse: collapse;
   width: 80%;
+  min-height: 250px;
   margin: 20px auto;
 }
 th {
