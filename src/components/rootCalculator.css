@@ -52,7 +52,10 @@ footer {
 .subheading{
   font-size: calc(4px + 2vmin);
   letter-spacing: 0.02857em;
-  color: #505050;
+  font-weight: 500;
+}
+.react-daterange-picker__inputGroup__input{
+  color:#3b3b3b;
 }
 footer {
   display:block;
@@ -96,6 +99,7 @@ main {
 }
 .calanderLabel {
   margin-bottom: 1em;
+  color:#505050;
 }
 table {
   align-items: center;
@@ -113,7 +117,7 @@ th {
   width: 40%;
 }
  td {
-  font-family: '"Courier New", Courier, monospace', sans-serif !important;
+  letter-spacing: 1px;
   padding: 8px 8px 8px 20px;
   text-align: left;
   border: 1px solid #a1a1a1;
